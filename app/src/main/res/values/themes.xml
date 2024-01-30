@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme attributes -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Theme for ExerciseActivity -->
+    <style name="Theme._7minuteworkout" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme attributes for ExerciseActivity if needed -->
+    </style>
+
+    <style name="toolbar_exercise_theme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/toolbar_color_control_normal</item>
+    </style>
+    <style name="toolbar_bmi_theme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/toolbar_color_control_normal</item>
+    </style>
+
+</resources>

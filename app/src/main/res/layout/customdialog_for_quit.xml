@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#ffb6c1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are You Sure?"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This Will Stop YOur Workout. You Have Came So Far, Are You Sure You Want To Quit?"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="14dp"
+        >
+        <Button
+            android:id="@+id/btnyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            android:background="@drawable/finish_button"
+            android:layout_marginEnd="30dp"/>
+        <Button
+            android:id="@+id/btnno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:background="@drawable/finish_button"/>
+
+    </LinearLayout>
+</LinearLayout>
